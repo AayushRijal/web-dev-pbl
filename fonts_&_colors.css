@@ -1,0 +1,53 @@
+/* 
+h1{
+    color: #008000; // Hex color code 
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: rgb(205, 92, 92);
+} */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+p{
+    font-weight: 400;
+    font-size: 30px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    color: #1d4ed8;
+}
+h2{
+    font-size: 30px;
+    color: #475569;
+}
+h3{
+    font-size: 20px;
+    color: #334155;
+}
+p{
+    font-size: 15px;
+    color: #374151;
+}
+a{
+    color: #1e40af;
+}

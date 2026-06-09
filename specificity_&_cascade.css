@@ -1,0 +1,63 @@
+    /* CASCADE */
+    /* p { color: red; } */
+    /* p { color: blue; }  */ /* later one wins */
+
+    /* SPECIFICITY */
+    /* p { color: red; }          least specific */
+    /* .text { color: blue; }     more specific */
+    /* #main { color: green; }    most specific */
+
+
+
+    /* TASK 1 */
+
+    /* p{
+        color: purple;
+    }
+    .card{
+        color: red;
+    } */
+
+
+    /* p{
+        color: red;
+    }
+
+    .first{
+        color: green;
+    }
+
+    #I{
+        color: blue;
+    } */
+
+
+    /* TASK 2 */
+
+    /* p{
+        background-color: red;
+    }
+
+    .card{
+        background-color:palegoldenrod;
+        color: pink;
+    }
+
+    .card p{
+        background-color: mediumslateblue;
+    } */
+
+    /* WHAT? The color is pink and bgclr is mediumslateblue*/
+
+/* TASK 3 */
+
+/* create conflicts like these and make sure the right one wins */
+
+li { color: white; }           /* 1 point */
+nav ul li { color: purple; }   /* 3 points — this should win */
+
+h1 { color: gray; }            /* 1 point */
+.heading h1 { color: navy; }   /* 11 points — this should win */
+
+p { color: black; }            /* 1 point */
+.footer p { color: darkred; }  /* 11 points — this should win */

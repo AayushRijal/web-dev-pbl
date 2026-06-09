@@ -1,0 +1,32 @@
+/* p{
+    background-color: green;
+    font-size: 20px; */
+    /* you said bgcolor of para, not the whole page I understood, so I did this. If you meant the whole page, you just use * in place of p */
+/* }
+
+h1,h2{
+    color: blue;
+} */
+
+
+
+
+
+
+
+/* you only said for headings */
+body{
+    background-color: aqua;
+}
+h1{
+    color: darkgreen;
+}
+h2{
+    color: chocolate;
+}
+h3{
+    color: magenta;
+}
+img{
+    width: 490px;
+}

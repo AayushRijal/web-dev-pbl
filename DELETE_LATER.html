@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Math Eve Plan</title>
+<style>
+* { border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f4f0; padding: 1.5rem; color: #1a1a18; }
+h1 { font-size: 20px; font-weight: 500; margin-bottom: 4px; color: #1F3864; }
+.subtitle { font-size: 13px; color: #5f5e5a; margin-bottom: 6px; }
+.top-alert { background: #FCEBEB; border-radius: 8px; padding: 10px 14px; margin-bottom: 1rem; font-size: 13px; color: #A32D2D; line-height: 1.6; }
+.top-rule { background: #EAF3DE; border-radius: 8px; padding: 10px 14px; margin-bottom: 1.5rem; font-size: 13px; color: #3B6D11; line-height: 1.6; }
+.block { background: #fff; border: 0.5px solid #d3d1c7; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 12px; }
+.block-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.badge { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 10px; white-space: nowrap; }
+.certain { background: #FCEBEB; color: #A32D2D; }
+.likely { background: #FAEEDA; color: #854F0B; }
+.glance { background: #F1EFE8; color: #5F5E5A; }
+.block-title { font-size: 14px; font-weight: 500; color: #1a1a18; }
+.time-tag { font-size: 12px; color: #5f5e5a; margin-left: auto; }
+.q { background: #EEEDFE; border-radius: 8px; padding: 8px 12px; margin: 6px 0; font-size: 12px; color: #3C3489; line-height: 1.7; }
+.q strong { color: #26215C; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+.hint { background: #f5f4f0; border-radius: 6px; padding: 6px 10px; margin: 4px 0; font-size: 11px; color: #5f5e5a; line-height: 1.6; }
+.hint b { color: #1a1a18; }
+.break { background: #f5f4f0; border-radius: 10px; padding: .6rem 1rem; margin-bottom: 12px; font-size: 13px; color: #5f5e5a; }
+.glance-block { background: #fff; border: 0.5px solid #d3d1c7; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 12px; }
+.glance-list { font-size: 12px; color: #5f5e5a; line-height: 2; padding-left: 1rem; }
+.glance-list li { margin-bottom: 2px; }
+.done { background: #EAF3DE; border-radius: 10px; padding: .8rem 1.2rem; font-size: 13px; color: #3B6D11; line-height: 1.7; font-weight: 500; margin-top: 1rem; }
+.section-label { font-size: 12px; font-weight: 600; color: #5f5e5a; text-transform: uppercase; letter-spacing: .06em; margin: 1.2rem 0 .6rem; }
+</style>
+</head>
+<body>
+
+<h1>Math Pre-Finals Eve</h1>
+<p class="subtitle">5:15 PM — Exam tomorrow 7 AM. Structured. Calm. Confident.</p>
+
+<div class="top-alert">You are NOT learning tonight. You are reminding your brain of what it already knows. The moment any question takes more than 15 minutes — move on. Write what you know, note what you don't, keep moving.</div>
+<div class="top-rule">Rule: 1-2 questions per certain topic. 1 question per likely topic. Glance only for low probability. Done by 9 PM. Sleep by 10 PM latest.</div>
+
+<div class="section-label">Block 1 — Certain Topics (5:20 – 7:20 PM, ~120 min)</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge certain">Certain</span>
+    <span class="block-title">1. Hermitian Matrix</span>
+    <span class="time-tag">10 min</span>
+  </div>
+  <div class="q"><strong>Q (2023 Group A):</strong> Define a Hermitian matrix with example.</div>
+  <div class="hint"><b>What to write:</b> A matrix A is Hermitian if A = Aᴴ (conjugate transpose). Write a 2×2 example with complex entries. Verify it equals its conjugate transpose.</div>
+  <div class="q"><strong>Q (2025 Group A):</strong> Define orthogonal matrix with example.</div>
+  <div class="hint"><b>What to write:</b> A matrix A is orthogonal if AAᵀ = I (identity). Write a simple 2×2 rotation matrix example.</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge certain">Certain</span>
+    <span class="block-title">2. Euler's Theorem</span>
+    <span class="time-tag">20 min</span>
+  </div>
+  <div class="q"><strong>Q (2023 Group B):</strong> Verify Euler's theorem for f(x,y) = 5x² + 7xy - 3y²</div>
+  <div class="hint"><b>Steps:</b> State theorem → find degree n=2 → find ∂u/∂x = 10x+7y → find ∂u/∂y = 7x-6y → substitute x(∂u/∂x) + y(∂u/∂y) → show = 2u ✓</div>
+  <div class="q"><strong>Q (2025 Group A):</strong> Find partial derivatives fₓ and f_y when f(x,y) = xy/(y-x)</div>
+  <div class="hint"><b>Steps:</b> Quotient rule for fₓ treating y as constant. Same for f_y treating x as constant.</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge certain">Certain</span>
+    <span class="block-title">3. Conic Sections</span>
+    <span class="time-tag">20 min</span>
+  </div>
+  <div class="q"><strong>Q (2022 Group B):</strong> Find eccentricity, foci, directrices, major axis, minor axis and latus rectum of 9x²+25y²=225</div>
+  <div class="hint"><b>Steps:</b> Divide by 225 → x²/25 + y²/9 = 1 → a²=25, b²=9 → c²=a²-b²=16 → c=4 → e=c/a=4/5 → foci=(±4,0) → directrices x=±25/4</div>
+  <div class="q"><strong>Q (2025 Group B):</strong> Find center, eccentricity, foci and directrices of 9x²-16y²+36x+23y-124=0</div>
+  <div class="hint"><b>Steps:</b> Complete the square → standard hyperbola form → read center (h,k) → find a,b,c → apply formulas with center shift</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge certain">Certain</span>
+    <span class="block-title">4. Vectors</span>
+    <span class="time-tag">20 min</span>
+  </div>
+  <div class="q"><strong>Q (2023 Group A):</strong> Find perpendicular vector to a⃗ = 2i+3j+4k and b⃗ = i-3j+2k</div>
+  <div class="hint"><b>Steps:</b> Cross product a⃗ × b⃗ using 3×3 determinant with i,j,k in first row</div>
+  <div class="q"><strong>Q (2022 Group A):</strong> Find unit vector perpendicular to A⃗=2i+j+2k and B⃗=3i-j-k</div>
+  <div class="hint"><b>Steps:</b> Find A⃗×B⃗ → divide by its magnitude to get unit vector</div>
+  <div class="q"><strong>Q (2023 Group C):</strong> Show three vectors a⃗=i+j+k, b⃗=2i-3j-k, c⃗=4i-j+k are coplanar</div>
+  <div class="hint"><b>Steps:</b> Scalar triple product [a b c] = determinant of 3×3 matrix. If = 0, coplanar.</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge certain">Certain</span>
+    <span class="block-title">5. 3D Geometry — Plane + Distance</span>
+    <span class="time-tag">15 min</span>
+  </div>
+  <div class="q"><strong>Q (2022 Group B):</strong> Find equation of plane through A(2,2,1), B(3,4,2) and C(7,0,6)</div>
+  <div class="hint"><b>Steps:</b> Find two vectors AB and AC → cross product gives normal vector n → use point-normal form: n·(r - r₀) = 0</div>
+  <div class="q"><strong>Q (2023 Group B):</strong> Find distance of point (2,3,4) from plane 3x-6y+2z+11=0</div>
+  <div class="hint"><b>Formula:</b> d = |ax₁+by₁+cz₁+d| / √(a²+b²+c²) = |6-18+8+11| / √(9+36+4) = 7/7 = 1</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge certain">Certain</span>
+    <span class="block-title">6. Radius of Curvature</span>
+    <span class="time-tag">15 min</span>
+  </div>
+  <div class="q"><strong>Q (2022 and 2023 Group B):</strong> Find radius of curvature at any point (x,y) for the curve y²=4ax</div>
+  <div class="hint"><b>Steps:</b> dy/dx = 2a/y → d²y/dx² = -4a²/y³ → ρ = [1+(2a/y)²]^(3/2) / (-4a²/y³) → ρ = (y²+4a²)^(3/2) / 4a²</div>
+  <div class="q"><strong>Q (2025 Group B):</strong> Find radius of curvature at any point of x=a(θ+sinθ), y=a(1-cosθ)</div>
+  <div class="hint"><b>Steps:</b> Find dx/dθ and dy/dθ → dy/dx = (dy/dθ)/(dx/dθ) → find d²y/dx² → substitute into ρ formula</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge certain">Certain</span>
+    <span class="block-title">7. Maclaurin Series</span>
+    <span class="time-tag">15 min</span>
+  </div>
+  <div class="q"><strong>Q (2022 and 2025 Group B):</strong> Expand e^sinx by Maclaurin's theorem as far as the term containing x⁴</div>
+  <div class="hint"><b>Steps:</b> sin x = x - x³/6 + ... → substitute u = sinx into e^u = 1+u+u²/2+u³/6+... → collect terms up to x⁴ → answer: 1 + x + x²/2 - x⁴/8 + ...</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge certain">Certain</span>
+    <span class="block-title">8. Matrix — Inverse + Gauss Elimination</span>
+    <span class="time-tag">15 min</span>
+  </div>
+  <div class="q"><strong>Q (2022 Group B):</strong> Find inverse of the matrix [2,3,5; -6,3,8; 2,1,7]</div>
+  <div class="hint"><b>Steps:</b> Find determinant → find cofactor matrix → transpose to get adjugate → divide by determinant</div>
+  <div class="q"><strong>Q (2023 Group B):</strong> Solve by Gauss-elimination: 2x+2y+z=6, 4x+2y+3z=4, x-y+z=0</div>
+  <div class="hint"><b>Steps:</b> Write augmented matrix → row reduce to upper triangular → back substitute to find z, y, x</div>
+</div>
+
+<div class="break">Short break — 10 min. Water, stretch. You've done the hard block.</div>
+
+<div class="section-label">Block 2 — Likely Topics (7:30 – 8:20 PM, ~50 min)</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge likely">Likely</span>
+    <span class="block-title">9. Asymptotes</span>
+    <span class="time-tag">15 min</span>
+  </div>
+  <div class="q"><strong>Q (2022 Group B):</strong> Find asymptotes of y³ - xy² - x²y + x³ + x² - y² = 1</div>
+  <div class="hint"><b>Steps:</b> Let y=mx+c → substitute → collect coefficient of x³ (equation 1) and x² (equation 2) → solve eq1 for m → substitute into eq2 for c → write y=mx+c for each pair</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge likely">Likely</span>
+    <span class="block-title">10. Axis Transformation</span>
+    <span class="time-tag">15 min</span>
+  </div>
+  <div class="q"><strong>Q (2025 Group A):</strong> Transform x²+4xy+y²+2x=12 by rotating axes through 45°</div>
+  <div class="hint"><b>Steps:</b> Substitute x=(X-Y)/√2, y=(X+Y)/√2 → expand → collect terms → simplify. XY cross term should vanish.</div>
+</div>
+
+<div class="block">
+  <div class="block-header">
+    <span class="badge likely">Likely</span>
+    <span class="block-title">11. Lines in 3D — Parametric + Skew</span>
+    <span class="time-tag">20 min</span>
+  </div>
+  <div class="q"><strong>Q (2022 Group A):</strong> Find parametric equations of line joining P₁(1,1,0) and P₂(0,2,3)</div>
+  <div class="hint"><b>Formula:</b> x=x₁+t(x₂-x₁), y=y₁+t(y₂-y₁), z=z₁+t(z₂-z₁). Direction vector = P₂-P₁ = (-1,1,3)</div>
+  <div class="q"><strong>Q (2022 Group C):</strong> Find shortest distance between skew lines (x-8)/3=(y+9)/-16=(z-10)/7 and (x-15)/3=(y-29)/8=(z-5)/-5</div>
+  <div class="hint"><b>Formula:</b> d = |(P₂-P₁)·(d₁×d₂)| / |d₁×d₂| where d₁, d₂ are direction vectors</div>
+</div>
+
+<div class="break">Short break — 5 min. Almost done.</div>
+
+<div class="section-label">Block 3 — Low Probability Glance (8:25 – 8:55 PM, ~30 min)</div>
+
+<div class="glance-block">
+  <div class="block-header">
+    <span class="badge glance">Glance Only</span>
+    <span class="block-title">Read your notes for these — do not solve questions</span>
+  </div>
+  <ul class="glance-list">
+    <li><b>Coordinate system:</b> Cartesian↔Polar: x=rcosθ, y=rsinθ, r=√(x²+y²), θ=tan⁻¹(y/x). Spherical: x=r sinφ cosθ, y=r sinφ sinθ, z=r cosφ. Cylindrical: x=r cosθ, y=r sinθ, z=z</li>
+    <li><b>Rolle's theorem:</b> If f is continuous on [a,b], differentiable on (a,b), f(a)=f(b) → ∃c where f'(c)=0</li>
+    <li><b>Mean Value theorem:</b> f'(c) = [f(b)-f(a)]/(b-a) for some c in (a,b)</li>
+    <li><b>Maxima/minima:</b> find f'(x)=0 → critical points → f''(x)&lt;0 = maxima, f''(x)&gt;0 = minima</li>
+    <li><b>Area between curves:</b> ∫[f(x)-g(x)]dx between intersection points</li>
+    <li><b>Volume of revolution:</b> π∫y²dx about x-axis</li>
+    <li><b>Arc length:</b> ∫√(1+(dy/dx)²)dx or for polar: ∫√(r²+(dr/dθ)²)dθ</li>
+    <li><b>Cramer's rule:</b> x=Dₓ/D, y=Dᵧ/D, z=D_z/D where D is main determinant</li>
+    <li><b>Properties of determinants:</b> zero row=zero det, swap rows=sign change, row op doesn't change det</li>
+    <li><b>Projection of a on b:</b> (a·b)/|b|</li>
+    <li><b>Work done:</b> W = F⃗·d⃗ (dot product of force and displacement vectors)</li>
+  </ul>
+</div>
+
+<div class="done">
+  Done by 9 PM. ✓<br><br>
+  After this: close everything. Eat well. Sleep by 10 PM.<br><br>
+  Exam strategy for tomorrow — Group A: attempt ALL 10, max 4 min each. Group B: do your 8 strongest first, skip the weakest. Group C: attempt all 5, write partial solutions for anything you start.<br><br>
+  You know this material. Go show it. 🔥
+</div>
+
+</body>
+</html>
